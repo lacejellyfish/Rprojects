@@ -1,7 +1,8 @@
->Pet<-c("Cat","Dog","Bunny")
+#Import data
+Pet<-c("Cat","Dog","Bunny")
 Weight<-c(12,70,3)
 Pet1<-data.frame(Pet,Weight)
->Pet<-c("Cat","Dog","Hamster")
+Pet<-c("Cat","Dog","Hamster")
 Color<-c("Black","Golden","Brown")
 Pet2<-data.frame(Pet,Color)
 
@@ -22,4 +23,5 @@ inner_join(Pet1, Pet2, by = "Pet")
 full_join(Pet1, Pet2, by = "Pet")
 #This results in a missing value for Hamster Weight and a missing value for Bunny Color.
 #Bunny is in Pet1 but not Pet2, so it has a weight but no color.
+
 
