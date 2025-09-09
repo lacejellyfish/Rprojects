@@ -15,3 +15,6 @@
 
 ## Joins project
 * joins.R: R script file
+
+## Graphs (scatterplot, linear regression, color, line types)
+* graphs.R: R script file of various graphs
